@@ -8,7 +8,7 @@
 
 <div align="center">
 
-An enterprise-class UI design language and React UI library.
+لغة تصميم واجهة المستخدم على مستوى المؤسسات ومكتبة React UI.
 
 [![CI status][github-action-image]][github-action-url] [![codecov][codecov-image]][codecov-url] [![NPM version][npm-image]][npm-url] [![NPM downloads][download-image]][download-url]
 
@@ -45,28 +45,29 @@ An enterprise-class UI design language and React UI library.
 
 [![](https://user-images.githubusercontent.com/507615/209472919-6f7e8561-be8c-4b0b-9976-eb3c692aa20a.png)](https://ant.design)
 
-English | [Português](./README-pt_BR.md) | [简体中文](./README-zh_CN.md) | [Українською](./README-uk_UA.md) | [Spanish](./README-sp_MX.md) | [日本語](./README-ja_JP.md) | [العربية](./README-ar_EG.md)
+[English](./README.md)  | [Português](./README-pt_BR.md) | [简体中文](./README-zh_CN.md) | [Українською](./README-uk_UA.md) | [Spanish](./README-sp_MX.md) | [日本語](./README-ja_JP.md) |العربية
 
-## ✨ Features
 
-- 🌈 Enterprise-class UI designed for web applications.
-- 📦 A set of high-quality React components out of the box.
-- 🛡 Written in TypeScript with predictable static types.
-- ⚙️ Whole package of design resources and development tools.
-- 🌍 Internationalization support for dozens of languages.
-- 🎨 Powerful theme customization based on CSS-in-JS.
+## ✨ الميزات
 
-## 🖥 Environment Support
+- 🌈 واجهة مستخدم من فئة المؤسسات مصممة لتطبيقات الويب.
+- 📦 مجموعة من مكونات React عالية الجودة خارج الصندوق.
+- 🛡 مكتوب في TypeScript بأنواع ثابتة يمكن التنبؤ بها.
+- ⚙️ مجموعة كاملة من موارد التصميم وأدوات التطوير.
+- 🌍 دعم التدويل لعشرات اللغات.
+- 🎨 تخصيص موضوع قوي على أساس CSS-in-JS.
 
-- Modern browsers
-- Server-side Rendering
-- [Electron](https://www.electronjs.org/)
+## 🖥 دعم البيئة البرمجية
+
+- المتصفحات الحديثة
+- التقديم من جانب الخادم
+- [إلكترون](https://www.electronjs.org/)
 
 | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/electron/electron_48x48.png" alt="Electron" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Electron |
 | --- | --- | --- | --- | --- |
 | Edge | last 2 versions | last 2 versions | last 2 versions | last 2 versions |
 
-## 📦 Install
+## 📦 التثبيت
 
 ```bash
 npm install antd
@@ -76,7 +77,7 @@ npm install antd
 yarn add antd
 ```
 
-## 🔨 Usage
+## 🔨 الاستخدام
 
 ```jsx
 import React from 'react';
@@ -90,44 +91,44 @@ const App = () => (
 );
 ```
 
-### TypeScript
+### كتابة السكربيت
 
-`antd` is written in TypeScript with complete definitions, check [Use in TypeScript](https://ant.design/docs/react/use-in-typescript) to get started.
+الخاصية `antd` مكتوبة في TypeScript مع تعريفات كاملة ، تحقق [Use in TypeScript](https://ant.design/docs/react/use-in-typescript) للبدء.
 
-## 🌍 Internationalization
+## 🌍 التدويل
 
-Dozens of languages are supported in `antd`, see [i18n](https://ant.design/docs/react/i18n).
+يتم دعم عشرات اللغات في`antd`, انظر [i18n](https://ant.design/docs/react/i18n).
 
-## 🔗 Links
+## 🔗 الروابط
 
-- [Home page](https://ant.design/)
-- [Components Overview](https://ant.design/components/overview)
-- [Ant Design Pro](http://pro.ant.design/)
-- [Change Log](CHANGELOG.en-US.md)
-- [rc-components](http://react-component.github.io/)
-- [Mobile UI](http://mobile.ant.design)
-- [Mini Program UI](http://mini.ant.design)
-- [Ant Design Pro Components](https://procomponents.ant.design)
-- [Ant Design Charts](https://charts.ant.design)
-- [Ant Design Icons](https://github.com/ant-design/ant-design-icons)
-- [Ant Design Colors](https://github.com/ant-design/ant-design-colors)
-- [Landing Pages](https://landing.ant.design)
-- [Motion](https://motion.ant.design)
-- [Scaffold Market](http://scaffold.ant.design)
-- [Developer Instruction](https://github.com/ant-design/ant-design/wiki/Development)
-- [Versioning Release Note](https://github.com/ant-design/ant-design/wiki/%E8%BD%AE%E5%80%BC%E8%A7%84%E5%88%99%E5%92%8C%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B)
-- [FAQ](https://ant.design/docs/react/faq)
-- [CodeSandbox Template](https://u.ant.design/codesandbox-repro) for bug reports
-- [Customize Theme](https://ant.design/docs/react/customize-theme)
-- [How to Apply for Being A Collaborator](https://github.com/ant-design/ant-design/wiki/Collaborators#how-to-apply-for-being-a-collaborator)
+- [الصفحة الرئيسية](https://ant.design/)
+- [نظرة عامة على المكونات](https://ant.design/components/overview)
+- [ برنامج Ant Design Pro ](http://pro.ant.design/)
+- [تغير الدخول](CHANGELOG.en-US.md)
+- [مكونات](http://react-component.github.io/)
+- [موبايل UI](http://mobile.ant.design)
+- [برنامج صغير UI](http://mini.ant.design)
+- [مكونات Ant Design Pro ](https://procomponents.ant.design)
+- [ رسوم بيانية Ant Design](https://charts.ant.design)
+- [أيقونات Ant Design](https://github.com/ant-design/ant-design-icons)
+- [ألوان Ant Design](https://github.com/ant-design/ant-design-colors)
+- [ صفحة لاند](https://landing.ant.design)
+- [حركة](https://motion.ant.design)
+- [سوق Scaffold](http://scaffold.ant.design)
+- [تعليمات المطورين](https://github.com/ant-design/ant-design/wiki/Development)
+- [إعداد نسخ الاصدارات](https://github.com/ant-design/ant-design/wiki/%E8%BD%AE%E5%80%BC%E8%A7%84%E5%88%99%E5%92%8C%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B)
+- [أسئلة مكرة](https://ant.design/docs/react/faq)
+- [قالب CodeSandbox](https://u.ant.design/codesandbox-repro) 
+- [تخصيص ثيم](https://ant.design/docs/react/customize-theme)
+- [كيفية التقدم بطلب المشاركة كمتعاون](https://github.com/ant-design/ant-design/wiki/Collaborators#how-to-apply-for-being-a-collaborator)
 
-## ⌨️ Development
+## ⌨️ التطوير
 
-Use Gitpod, a free online dev environment for GitHub.
+استخدم  Gitpod, بيئة تطوير مجانية عبر الإنترنت لـ GitHub.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ant-design/ant-design)
 
-Or clone locally:
+أو انسخه محلياً:
 
 ```bash
 $ git clone git@github.com:ant-design/ant-design.git
@@ -136,19 +137,19 @@ $ npm install
 $ npm start
 ```
 
-Open your browser and visit http://127.0.0.1:8001 , see more at [Development](https://github.com/ant-design/ant-design/wiki/Development).
+افتح متصفحك وقم بزيارة http://127.0.0.1:8001 , شاهد المزيد [Development](https://github.com/ant-design/ant-design/wiki/Development).
 
-## 🤝 Contributing [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+## 🤝 المساهمة [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-Read our [contributing guide](https://ant.design/docs/react/contributing) and let's build a better antd together.
+أقرأ [دليل المساهمة](https://ant.design/docs/react/contributing) ودعونا نبني معاً الأفضل.
 
-We welcome all contributions. Please read our [CONTRIBUTING.md](https://github.com/ant-design/ant-design/blob/master/.github/CONTRIBUTING.md) first. You can submit any ideas as [pull requests](https://github.com/ant-design/ant-design/pulls) or as [GitHub issues](https://github.com/ant-design/ant-design/issues). If you'd like to improve code, check out the [Development Instructions](https://github.com/ant-design/ant-design/wiki/Development) and have a good time! :)
+نرحب بجميع المساهمات. يرجى قراءة [CONTRIBUTING.md](https://github.com/ant-design/ant-design/blob/master/.github/CONTRIBUTING.md) أولاً. يمكنك تقديم أي أفكار  [pull requests](https://github.com/ant-design/ant-design/pulls) أو  [GitHub issues](https://github.com/ant-design/ant-design/issues). إذا كنت ترغب في تحسين التعليمات البرمجية ، تحقق من [Development Instructions](https://github.com/ant-design/ant-design/wiki/Development) وأتمنى لك وقتاً ممتعاً! :)
 
-If you are a collaborator, please follow our [Pull Request principle](https://github.com/ant-design/ant-design/wiki/PR-principle) to create a Pull Request with [collaborator template](https://github.com/ant-design/ant-design/compare?expand=1&template=collaborator.md).
+إذا كنت مساهماً ، فيرجى اتباع  [Pull Request principle](https://github.com/ant-design/ant-design/wiki/PR-principle) لإنشاء طلب مساهمة مع [collaborator template](https://github.com/ant-design/ant-design/compare?expand=1&template=collaborator.md).
 
 [![Let's fund issues in this repository](https://issuehunt.io/static/embed/issuehunt-button-v1.svg)](https://issuehunt.io/repos/34526884)
 
-## ❤️ Sponsors and Backers [![](https://opencollective.com/ant-design/tiers/sponsors/badge.svg?label=Sponsors&color=brightgreen)](https://opencollective.com/ant-design#support) [![](https://opencollective.com/ant-design/tiers/backers/badge.svg?label=Backers&color=brightgreen)](https://opencollective.com/ant-design#support)
+## ❤️ الرعاة والداعمون [![](https://opencollective.com/ant-design/tiers/sponsors/badge.svg?label=Sponsors&color=brightgreen)](https://opencollective.com/ant-design#support) [![](https://opencollective.com/ant-design/tiers/backers/badge.svg?label=Backers&color=brightgreen)](https://opencollective.com/ant-design#support)
 
 [![](https://opencollective.com/ant-design/tiers/sponsors.svg?avatarHeight=36)](https://opencollective.com/ant-design#support)
 
